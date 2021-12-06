@@ -72,7 +72,7 @@ $(document).ready(function () {
     let email = $("#floatingInput").val();
 
     if (email === "admin" && password === "admin") {
-      window.location = "index.html";
+      window.location = "home.html";
       // window.open("/index.html");
     } else {
       console.log("invalid input");
